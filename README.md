@@ -1,2 +1,2 @@
 # progressr.io
-### build with next.js
+### build with next.js & grommet & HTML2Canvas

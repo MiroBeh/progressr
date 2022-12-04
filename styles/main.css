@@ -1,0 +1,81 @@
+html,
+body {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: black;
+    background: white;
+  }
+}
+
+.header {
+  padding: 20px 40px;
+}
+
+.controls {
+  width: 500px;
+  margin: 0 auto 20px;
+}
+
+.value-inputs {
+  display: flex;
+  gap: 15px;
+}
+
+.canvas-parent {
+  margin: 0 auto;
+  width: 1500px;
+  height: 500px;
+  border: 2px solid darkgrey;
+  zoom: 70%;
+  position: relative;
+}
+
+.canvas {
+  height: 100%;
+  color: white;
+}
+
+.light-green-bg {
+  background-image: linear-gradient(to right, #74F2CE, #7CFFCB);
+}
+
+.asteroid-bg {
+  background: #0F2027;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.wiretap-bg {
+  background: #8A2387;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.center-text {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.watermark {
+  font-size: 20px; 
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+  opacity: 0.3; 
+  color: white;
+}
